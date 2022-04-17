@@ -5,7 +5,7 @@ const port = 8000;
 
 // Firstly defining all the controllers
 var homePage = (req, res) => {
-    res.send('Hello, I am Shivay Bhandari')
+    res.send('Hello, I am Diksha')
 };
 var aboutPage = (req, res) => {
     res.sendFile('./github-link.html', { root: __dirname });
