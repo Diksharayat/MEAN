@@ -14,8 +14,8 @@ app.set('view engine', 'ejs')
 // You can set anything in the title, that will be displayed in the website
 app.get('/', (req, res) => {
     res.render('index', {
-        title: 'ShivayBhandari',
-        name: 'Shivay Bhandari'
+        title: 'Diksharayat',
+        name: 'Diksharayat'
     });
 });
 
